@@ -9,7 +9,11 @@ packages = [{include = "l"}]
 [tool.poetry.dependencies]
 python = "^3.11.6"
 pandas = "^2.2.3"
+fastparquet = "^2024.11.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
